@@ -6,9 +6,9 @@ End-to-end statistical analysis and machine learning model — final team projec
 ---
 
 ## Team Members
-- [Name]
-- [Name]
-- [Name]
+- Sristi Ghimire
+- Mina Habib
+- Pranav Dhinakar
 
 ---
 
