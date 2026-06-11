@@ -1,5 +1,5 @@
 # AAI500-Final-Project
-**University of San Diego | AAI-500 | Team [X]**
+**University of San Diego | AAI-500 | Team 2**
 
 End-to-end statistical analysis and machine learning model — final team project.
 
