@@ -12,6 +12,28 @@ End-to-end statistical analysis and machine learning model — final team projec
 
 ---
 
+## Instructions
+
+Clone this repo in your own file system, run this command in your terminal:
+```bash
+git clone https://github.com/pdhinaka/AAI500-Final-Project.git
+```
+
+
+After you make your changes to the notebook or add anything to the folder run these commands:
+```bash
+# Tracks your changes
+git add . 
+
+# Saves your changes to the project
+git commit -m "<Write a brief description of the work you did>"
+
+# Pushes your changes to the remote for everyone else to see
+git push origin
+```
+
+---
+
 ## To-Do List
 
 ### Setup
