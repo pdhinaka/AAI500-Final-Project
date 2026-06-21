@@ -1,62 +1,24 @@
-# AAI500-Final-Project
-**University of San Diego | AAI-500 | Team 2**
+# AAI-500 Final Project: Predicting Heart Disease
 
-End-to-end statistical analysis and binary classification model on the UCI Heart Disease dataset.
-
----
+This repository contains the final team project for AAI-500 (Applied Probability and Statistics for AI), Group 2. The project builds a logistic regression model to predict whether a patient has heart disease, using the Cleveland subset of the UCI Heart Disease dataset.
 
 ## Team Members
 
-| Member | Role |
-|--------|------|
-| Mina Habib | Data Cleaning & EDA |
-| Pranav Dhinakar | Modeling |
-| Sristi Ghimire | Model Evaluation |
+- **Pranav Dhinakar** — modeling, technical report, and presentation
+- **Mina Habib** — exploratory data analysis
+- **Sristi Ghimire** — model evaluation
 
----
+The work was divided evenly among all three members. Each person completed their own section of the notebook, reviewed the others' work, and helped prepare the final deliverables.
 
-## Instructions
+## A Note on the Commit History
 
-Clone this repo:
-```bash
-git clone https://github.com/pdhinaka/AAI500-Final-Project.git
-```
+One team member set up the repository at the start of the project. This included creating the folder structure, the notebook template, and a labeled section for each member to fill in. Because of this, a large share of the early commits come from a single person. Those early commits were setup work only. The actual project work was split evenly, and each member wrote and committed their own part.
 
-After making changes:
-```bash
-git add . # Tracks your changes
-git commit -m "<brief description of your work>" # Commits your changes to the local repository
-git push origin main # Pushes your changes to the remote for the rest of us to see and review
-```
+## Repository Contents
 
----
-
-## What Needs to Be Done
-
-- **EDA (Mina)** — summary stats, distribution plots, correlation analysis, categorical and continuous predictor comparisons against the target
-- **Modeling (Pranav)** — feature encoding, train/test split, fit logistic regression, coefficient table
-- **Evaluation (Sristi)** — confusion matrix, classification report, ROC curve, sensitivity and specificity
-- **Technical Report (Pranav)** — compile all findings into the required sections: Introduction, Data Cleaning, EDA, Model Selection, Model Analysis, Conclusion; attach notebook output as appendix
-- **Video Presentation (all)** — 8–10 min, non-technical business audience, each member presents their section equally
-
----
-
-## Repository Structure
-
-```
-AAI500-Final-Project/
-├── data/
-│   ├── raw/          # Original dataset (do not modify)
-│   └── processed/    # Cleaned data ready for analysis
-├── notebooks/        # Jupyter notebooks
-├── src/              # Reusable Python scripts
-├── reports/          # Final PDF report and presentation slides
-└── README.md
-```
-
----
-
-## Notes
-- Follow PEP 8 for all Python code
-- Disclose all AI tool usage per the course academic integrity policy
-- Commit regularly — version history is part of the submission requirement
+- **AAI500_Final_Project.ipynb** — the final Jupyter notebook with all the code, analysis, and output. It is organized into sections for data cleaning, exploratory data analysis, modeling, and evaluation. The notebook downloads the dataset directly from the UCI repository, so no separate data file is needed.
+- **Exploratory-Work.ipynb** — an early notebook used to explore the dataset before the final analysis was built. It is kept for reference and is not part of the final submission.
+- **Final-Project-Report-Team-2.pdf** — the final written technical report. It covers the introduction, data cleaning, exploratory analysis, model selection, model analysis, and conclusion, with the full code included in an appendix.
+- **Predicting Heart Disease.pdf** — a plain export of the presentation slides, provided alongside the video.
+- **Final Project Presentation.mp4** — the recorded video presentation, aimed at a non-technical audience.
+- **README.md** — this file.
